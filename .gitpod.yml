@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'deno cache deps.ts'
+
+vscode:
+  extensions:
+    - denoland.vscode-deno@1.25.0:HlnpzVQnhSGD48z7hSihqQ==
